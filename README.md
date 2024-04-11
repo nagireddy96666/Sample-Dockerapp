@@ -1,4 +1,3 @@
-Commands 
 docker rm -f $(docker ps -a -q)
 docker rmi $(docker images -q)
 sudo docker build -t my-flask-app .
